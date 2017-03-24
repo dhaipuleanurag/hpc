@@ -1,0 +1,29 @@
+Results run on NYU CIMS
+
+Gauss-Seidel
+Four threads 
+N = 10: 0.14 seconds
+N = 100: 1.22 seconds
+N = 1000: 21.48 seconds
+
+Single thread
+N = 10: 0.008
+N = 100: 0.35 seconds
+N = 1000: 26.28 seconds
+
+
+
+
+Jacobi 
+Four threads
+N = 10: 0.104
+N = 100: 0.867
+N = 1000: 20.14
+
+Single thread
+N = 10: 0.0079 seconds
+N = 100: 0.348 seconds
+N = 1000: 25.69 seconds
+
+
+Notice that as N increases, parallel version improves because with lower values of N, the overhead of maintaining threads takes up significant time compared to computation time. 

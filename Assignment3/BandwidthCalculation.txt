@@ -1,0 +1,7 @@
+Total processes: 4
+Total loops: 10
+
+The average time for one loop: 0.085 seconds
+Average time for one jump: 0.021 seconds for one step
+Bandwidth = Total data sent/ time taken = 2 * 10 ^ 6/ 0.021 = 95238095 Bytes/Second
+          ~ 95 Mbps
